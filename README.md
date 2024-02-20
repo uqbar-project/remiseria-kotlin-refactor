@@ -1,5 +1,5 @@
 
-[![build](https://github.com/uqbar-project/remiseria-kotlin-refactor/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/uqbar-project/remiseria-kotlin-refactor/actions/workflows/build.yml) [![codecov](https://codecov.io/gh/uqbar-project/remiseria-kotlin-refactor/graph/badge.svg?token=g3idDVbxaX)](https://codecov.io/gh/uqbar-project/remiseria-kotlin-refactor)
+[![build](https://github.com/uqbar-project/remiseria-kotlin-refactor/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/uqbar-project/remiseria-kotlin-refactor/actions/workflows/build.yml) [![Coverage Status](https://coveralls.io/repos/github/uqbar-project/remiseria-kotlin-refactor/badge.svg?branch=master)](https://coveralls.io/github/uqbar-project/remiseria-kotlin-refactor?branch=master)
 
 ## Ejercicio Refactor: Remisería
 
