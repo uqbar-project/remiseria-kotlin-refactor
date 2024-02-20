@@ -66,5 +66,4 @@ abstract class Trayecto {
     val fecha = Date()
 }
 
-data class Viaje(val remisero: Remisero, val origen: Lugar, val destino: Lugar, val costo: Double): Trayecto() {
-}
+data class Viaje(val remisero: Remisero, val origen: Lugar, val destino: Lugar, val costo: Double): Trayecto()
