@@ -18,6 +18,7 @@ jobs:
 
       - run: |
           chmod +x ./gradlew
+          ls -laR
 
       # Execute Gradle commands in GitHub Actions workflows
       - uses: gradle/actions/setup-gradle@v3
@@ -25,4 +26,7 @@ jobs:
           arguments: runOnGitHub
 
       # Send JaCoCo reports to codecov
-      - uses: coverallsapp/github-action@v2
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
