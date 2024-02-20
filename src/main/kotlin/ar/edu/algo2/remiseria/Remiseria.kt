@@ -74,7 +74,7 @@ class Remisero(var nombre: String) {
 
 data class Lugar(val nombre: String, val x: Double, val y: Double)
 
-open abstract class Trayecto {
+abstract class Trayecto {
     val fecha = Date()
 }
 
