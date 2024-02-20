@@ -25,7 +25,6 @@ jobs:
           arguments: runOnGitHub
 
       # Send JaCoCo reports to codecov
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v4
+      - run: bash <(curl -s https://codecov.io/bash)
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
