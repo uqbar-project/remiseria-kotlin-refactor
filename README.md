@@ -11,7 +11,7 @@ Modelar una remisería que realiza viajes con diferentes remiseros. Cada viaje r
 - la fecha en la que ocurrió dicho viaje
 - el costo del viaje
 
-> **Costo del viaje**: es la sumatoria de: 1. el costo base de la remisería (1.500) + 2. la comisión qeu cobra cada remisero (cada remisero cobra 2 veces la cantidad de letras de su nombre menos Pepe que cobra 20% fijo) y 3. el costo en base a la distancia que son 300 pesos por milla (sí, se calcula en millas).
+> **Costo del viaje**: es la sumatoria de: 1. el costo base de la remisería (1.500) + 2. la comisión que cobra cada remisero (cada remisero cobra 2 veces la cantidad de letras de su nombre menos Pepe que cobra 20% fijo) y 3. el costo en base a la distancia que son 300 pesos por milla (sí, se calcula en millas).
 
 Por otra parte, nos interesa conocer los viajes copados, que son aquellos en donde se recorrió más de 5 millas.
 
