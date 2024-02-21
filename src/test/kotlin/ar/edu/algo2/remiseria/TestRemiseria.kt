@@ -53,6 +53,8 @@ class TestRemiseria : DescribeSpec({
             val viaje2 = remiseria.realizarViaje(remisera, unsam, parqueRoca)
             val viaje3 = remiseria.realizarViaje(remisera, huracan, aulario)
 
+            // act
+
             // assert
             remiseria.viajesCopados() shouldBe listOf(viaje1, viaje2, viaje3)
         }
