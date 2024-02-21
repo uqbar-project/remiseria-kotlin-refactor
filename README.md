@@ -1,5 +1,5 @@
 
-[![build](https://github.com/uqbar-project/remiseria-kotlin-refactor/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/uqbar-project/remiseria-kotlin-refactor/actions/workflows/build.yml) [![Coverage Status](https://coveralls.io/repos/github/uqbar-project/remiseria-kotlin-refactor/badge.svg?branch=master)](https://coveralls.io/github/uqbar-project/remiseria-kotlin-refactor?branch=master)
+[![build](https://github.com/uqbar-project/remiseria-kotlin-refactor/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/uqbar-project/remiseria-kotlin-refactor/actions/workflows/build.yml) [![codecov](https://codecov.io/github/uqbar-project/remiseria-kotlin-refactor/graph/badge.svg?token=g3idDVbxaX)](https://codecov.io/github/uqbar-project/remiseria-kotlin-refactor)
 
 ## Ejercicio Refactor: Remisería
 
@@ -20,7 +20,7 @@ Por otra parte, nos interesa conocer los viajes copados, que son aquellos en don
 Tenemos una solución actual donde tenemos
 
 - [estas definiciones](./src/main/kotlin/ar/edu/algo2/remiseria/Remiseria.kt)
-- [y estos tests](./src/test/kotlin/ar/edu/algo2/remiseria/Remiseria.kt)
+- [y estos tests](./src/test/kotlin/ar/edu/algo2/remiseria/TestRemiseria.kt)
 
 Se pide que encuentre code smells y piense refactors para mejorar el código.
 
