@@ -4,7 +4,7 @@ import io.kotest.core.spec.IsolationMode
 import io.kotest.core.spec.style.DescribeSpec
 import io.kotest.matchers.shouldBe
 
-class TestAgricultor : DescribeSpec({
+class TestRemiseria : DescribeSpec({
     isolationMode = IsolationMode.InstancePerTest
 
     describe("costo de un viaje") {
